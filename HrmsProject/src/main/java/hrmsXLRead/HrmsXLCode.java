@@ -1,0 +1,36 @@
+package hrmsXLRead;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class HrmsXLCode {
+	static FileInputStream f;
+	static XSSFWorkbook wb;
+	static XSSFSheet sh;
+
+	public static String stringDataRead(int row, int col) throws IOException {
+		f = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\resources\\Driver\\DataBase.xlsx");
+		wb = new XSSFWorkbook(f);
+		sh = wb.getSheet("credentials");
+		Row r = sh.getRow(row);
+		Cell c = r.getCell(col);
+		return c.getStringCellValue();
+	}
+
+	public static String integerDataRead(int row, int col) throws IOException {
+		f = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\resources\\Driver\\DataBase.xlsx");
+		wb = new XSSFWorkbook(f);
+		sh = wb.getSheet("credentials");
+		Row r = sh.getRow(row);
+		Cell c = r.getCell(col);
+		int a = (int) c.getNumericCellValue();
+		return String.valueOf(a);
+	}
+
+}
+
