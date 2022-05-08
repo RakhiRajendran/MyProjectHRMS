@@ -1,0 +1,17 @@
+elementRepository\EmployeeRepo.class
+elementRepository\EmployeeReportRepo.class
+elementRepository\CoreHRAwardPageRepo.class
+elementRepository\LoginPageRepo.class
+utilitiesClass\WaitUtility.class
+elementRepository\HRCalendarPageRepo.class
+elementRepository\HolidayPageRepo.class
+elementRepository\ThemeSettingRepo.class
+elementRepository\EmailTemplateRepo.class
+elementRepository\PaySlipRepo.class
+elementRepository\ThemeSettingPageLayoutRepo.class
+elementRepository\AddNewEmployeeRepo.class
+utilitiesClass\GeneralUtilities.class
+utilitiesClass\ScreenShotUtility.class
+elementRepository\HomePageRepo.class
+utilitiesClass\XLReadUtility.class
+elementRepository\RolePermissionRepo.class

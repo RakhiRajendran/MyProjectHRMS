@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cross Browser suite]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.GEmployeePageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAddEmployeeTC24"/>
+        </methods>
+      </class> <!-- testCases.GEmployeePageTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Cross Browser suite] -->

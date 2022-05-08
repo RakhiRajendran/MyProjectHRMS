@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="22" total="30" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T09:05:22 IST" name="Grouping" finished-at="2022-05-06T09:07:23 IST" duration-ms="121635">
+    <groups>
+      <group name="Smoke">
+        <method signature="ALoginTestCase.verifyLoginButtonTextTC01()[pri:1, instance:testCases.ALoginTestCase@6c64cb25]" name="verifyLoginButtonTextTC01" class="testCases.ALoginTestCase"/>
+        <method signature="ECoreHRAwardPageTestCase.verifyAddAwardTC20()[pri:1, instance:testCases.ECoreHRAwardPageTestCase@4efbca5a]" name="verifyAddAwardTC20" class="testCases.ECoreHRAwardPageTestCase"/>
+        <method signature="GEmployeePageTest.verifyAddEmployeeTC24()[pri:1, instance:testCases.GEmployeePageTest@59662a0b]" name="verifyAddEmployeeTC24" class="testCases.GEmployeePageTest"/>
+        <method signature="DRolePermissionTestCase.verifySearchBarTC17()[pri:3, instance:testCases.DRolePermissionTestCase@6069db50]" name="verifySearchBarTC17" class="testCases.DRolePermissionTestCase"/>
+        <method signature="HEmailTemplateTestCase.verifyEmailTemplateEditFunctionTC29()[pri:3, instance:testCases.HEmailTemplateTestCase@77fbd92c]" name="verifyEmailTemplateEditFunctionTC29" class="testCases.HEmailTemplateTestCase"/>
+        <method signature="BHomePageTestCase.verifyEmployeesCssValuesTC06()[pri:4, instance:testCases.BHomePageTestCase@49139829]" name="verifyEmployeesCssValuesTC06" class="testCases.BHomePageTestCase"/>
+        <method signature="BHomePageTestCase.verifyHRMSSettingAttributeValueTC09()[pri:7, instance:testCases.BHomePageTestCase@49139829]" name="verifyHRMSSettingAttributeValueTC09" class="testCases.BHomePageTestCase"/>
+        <method signature="CHRCalendarPageTestCase.verifyHRHolidaysTagNameTC14()[pri:10, instance:testCases.CHRCalendarPageTestCase@9597028]" name="verifyHRHolidaysTagNameTC14" class="testCases.CHRCalendarPageTestCase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-05-06T09:05:22 IST" name="Grouping Test HRMS" finished-at="2022-05-06T09:07:23 IST" duration-ms="121635">
+      <class name="testCases.DRolePermissionTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.DRolePermissionTestCase@6069db50]" started-at="2022-05-06T09:06:15 IST" name="beforeMethod" finished-at="2022-05-06T09:06:20 IST" duration-ms="5272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchBarTC17()[pri:3, instance:testCases.DRolePermissionTestCase@6069db50]" started-at="2022-05-06T09:06:20 IST" name="verifySearchBarTC17" finished-at="2022-05-06T09:06:36 IST" duration-ms="15861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBarTC17 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.DRolePermissionTestCase@6069db50]" started-at="2022-05-06T09:06:36 IST" name="afterMethod" finished-at="2022-05-06T09:06:36 IST" duration-ms="55" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchBarTC17 status=SUCCESS method=DRolePermissionTestCase.verifySearchBarTC17()[pri:3, instance:testCases.DRolePermissionTestCase@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.DRolePermissionTestCase -->
+      <class name="testCases.CHRCalendarPageTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.CHRCalendarPageTestCase@9597028]" started-at="2022-05-06T09:05:58 IST" name="beforeMethod" finished-at="2022-05-06T09:06:03 IST" duration-ms="5647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHRHolidaysTagNameTC14()[pri:10, instance:testCases.CHRCalendarPageTestCase@9597028]" started-at="2022-05-06T09:06:03 IST" name="verifyHRHolidaysTagNameTC14" finished-at="2022-05-06T09:06:15 IST" duration-ms="11602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHRHolidaysTagNameTC14 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.CHRCalendarPageTestCase@9597028]" started-at="2022-05-06T09:06:15 IST" name="afterMethod" finished-at="2022-05-06T09:06:15 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHRHolidaysTagNameTC14 status=SUCCESS method=CHRCalendarPageTestCase.verifyHRHolidaysTagNameTC14()[pri:10, instance:testCases.CHRCalendarPageTestCase@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.CHRCalendarPageTestCase -->
+      <class name="testCases.GEmployeePageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.GEmployeePageTest@59662a0b]" started-at="2022-05-06T09:06:50 IST" name="beforeMethod" finished-at="2022-05-06T09:06:55 IST" duration-ms="5275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddEmployeeTC24()[pri:1, instance:testCases.GEmployeePageTest@59662a0b]" started-at="2022-05-06T09:06:55 IST" name="verifyAddEmployeeTC24" finished-at="2022-05-06T09:07:06 IST" duration-ms="11014" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-1G2A8GFB', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c2796fd3efd4dc1257e7d4a9c861b75, findChildElements {id=241ce121-bc67-4dc3-8d1b-59466901d431, using=xpath, value=.//option[normalize-space(.) = "MD Office"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52724/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c2796fd3efd4dc1257e7d4a9c861b75]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-1G2A8GFB', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c2796fd3efd4dc1257e7d4a9c861b75, findChildElements {id=241ce121-bc67-4dc3-8d1b-59466901d431, using=xpath, value=.//option[normalize-space(.) = "MD Office"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52724/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c2796fd3efd4dc1257e7d4a9c861b75
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:400)
+at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.findElements(Unknown Source)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
+at utilitiesClass.GeneralUtilities.dropDownFunction(GeneralUtilities.java:56)
+at elementRepository.AddNewEmployeeRepo.selectDepartment(AddNewEmployeeRepo.java:99)
+at testCases.GEmployeePageTest.verifyAddEmployeeTC24(GEmployeePageTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeTC24 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.GEmployeePageTest@59662a0b]" started-at="2022-05-06T09:07:06 IST" name="afterMethod" finished-at="2022-05-06T09:07:06 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeTC24 status=FAILURE method=GEmployeePageTest.verifyAddEmployeeTC24()[pri:1, instance:testCases.GEmployeePageTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.GEmployeePageTest -->
+      <class name="testCases.ALoginTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ALoginTestCase@6c64cb25]" started-at="2022-05-06T09:05:22 IST" name="beforeMethod" finished-at="2022-05-06T09:05:28 IST" duration-ms="5922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginButtonTextTC01()[pri:1, instance:testCases.ALoginTestCase@6c64cb25]" started-at="2022-05-06T09:05:28 IST" name="verifyLoginButtonTextTC01" finished-at="2022-05-06T09:05:28 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonTextTC01 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ALoginTestCase@6c64cb25]" started-at="2022-05-06T09:05:28 IST" name="afterMethod" finished-at="2022-05-06T09:05:28 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginButtonTextTC01 status=SUCCESS method=ALoginTestCase.verifyLoginButtonTextTC01()[pri:1, instance:testCases.ALoginTestCase@6c64cb25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ALoginTestCase -->
+      <class name="testCases.HEmailTemplateTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.HEmailTemplateTestCase@77fbd92c]" started-at="2022-05-06T09:07:06 IST" name="beforeMethod" finished-at="2022-05-06T09:07:12 IST" duration-ms="6049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEmailTemplateEditFunctionTC29()[pri:3, instance:testCases.HEmailTemplateTestCase@77fbd92c]" started-at="2022-05-06T09:07:12 IST" name="verifyEmailTemplateEditFunctionTC29" finished-at="2022-05-06T09:07:23 IST" duration-ms="10746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailTemplateEditFunctionTC29 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.HEmailTemplateTestCase@77fbd92c]" started-at="2022-05-06T09:07:23 IST" name="afterMethod" finished-at="2022-05-06T09:07:23 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmailTemplateEditFunctionTC29 status=SUCCESS method=HEmailTemplateTestCase.verifyEmailTemplateEditFunctionTC29()[pri:3, instance:testCases.HEmailTemplateTestCase@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.HEmailTemplateTestCase -->
+      <class name="testCases.ECoreHRAwardPageTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ECoreHRAwardPageTestCase@4efbca5a]" started-at="2022-05-06T09:06:36 IST" name="beforeMethod" finished-at="2022-05-06T09:06:40 IST" duration-ms="3604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddAwardTC20()[pri:1, instance:testCases.ECoreHRAwardPageTestCase@4efbca5a]" started-at="2022-05-06T09:06:40 IST" name="verifyAddAwardTC20" finished-at="2022-05-06T09:06:49 IST" duration-ms="9678" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-1G2A8GFB', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1682df075c0333a0b9e172b470e51ed1, findChildElements {id=13b5c941-e985-49bb-bb64-b32eae319e8a, using=xpath, value=.//option[normalize-space(.) = "John Smith"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52681/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1682df075c0333a0b9e172b470e51ed1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-1G2A8GFB', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1682df075c0333a0b9e172b470e51ed1, findChildElements {id=13b5c941-e985-49bb-bb64-b32eae319e8a, using=xpath, value=.//option[normalize-space(.) = "John Smith"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52681/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1682df075c0333a0b9e172b470e51ed1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:400)
+at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.findElements(Unknown Source)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
+at utilitiesClass.GeneralUtilities.dropDownFunction(GeneralUtilities.java:56)
+at elementRepository.CoreHRAwardPageRepo.selectEmployeeAward(CoreHRAwardPageRepo.java:76)
+at testCases.ECoreHRAwardPageTestCase.verifyAddAwardTC20(ECoreHRAwardPageTestCase.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddAwardTC20 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ECoreHRAwardPageTestCase@4efbca5a]" started-at="2022-05-06T09:06:49 IST" name="afterMethod" finished-at="2022-05-06T09:06:50 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddAwardTC20 status=FAILURE method=ECoreHRAwardPageTestCase.verifyAddAwardTC20()[pri:1, instance:testCases.ECoreHRAwardPageTestCase@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ECoreHRAwardPageTestCase -->
+      <class name="testCases.BHomePageTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:28 IST" name="beforeMethod" finished-at="2022-05-06T09:05:33 IST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEmployeesCssValuesTC06()[pri:4, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:33 IST" name="verifyEmployeesCssValuesTC06" finished-at="2022-05-06T09:05:42 IST" duration-ms="9291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeesCssValuesTC06 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:42 IST" name="afterMethod" finished-at="2022-05-06T09:05:42 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmployeesCssValuesTC06 status=SUCCESS method=BHomePageTestCase.verifyEmployeesCssValuesTC06()[pri:4, instance:testCases.BHomePageTestCase@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:42 IST" name="beforeMethod" finished-at="2022-05-06T09:05:48 IST" duration-ms="5732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHRMSSettingAttributeValueTC09()[pri:7, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:48 IST" name="verifyHRMSSettingAttributeValueTC09" finished-at="2022-05-06T09:05:58 IST" duration-ms="9778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHRMSSettingAttributeValueTC09 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.BHomePageTestCase@49139829]" started-at="2022-05-06T09:05:58 IST" name="afterMethod" finished-at="2022-05-06T09:05:58 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHRMSSettingAttributeValueTC09 status=SUCCESS method=BHomePageTestCase.verifyHRMSSettingAttributeValueTC09()[pri:7, instance:testCases.BHomePageTestCase@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.BHomePageTestCase -->
+    </test> <!-- Grouping Test HRMS -->
+  </suite> <!-- Grouping -->
+</testng-results>

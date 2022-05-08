@@ -1,0 +1,17 @@
+<suite name="My parallel Test">
+	<test name="HRMS Parallel Test" parallel="methods" thread-count="3">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCases.ALoginTestCase"></class>
+			<class name="testCases.BHomePageTestCase"></class>
+			<class name="testCases.CHRCalendarPageTestCase"></class>
+			<class name="testCases.DRolePermissionTestCase"></class>
+			<class name="testCases.ECoreHRAwardPageTestCase"></class>
+			<class name="testCases.FPayslipPageTestCase"></class>
+			<class name="testCases.GEmployeePageTest"></class>
+			<class name="testCases.HEmailTemplateTestCase"></class>
+			<class name="testCases.IThemeSettingPageTestCase"></class>
+		</classes>
+	</test>
+
+</suite>

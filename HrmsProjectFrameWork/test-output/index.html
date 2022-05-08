@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Grouping" class="navigator-link">
+              <span class="suite-name border-failed">Grouping</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Grouping" class="navigator-link ">
+                    <span>C:\Users\rahul\Desktop\SeleniumAlvinSir\HrmsProjectFrameWork\Grouping.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Grouping" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Grouping" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Grouping" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Grouping" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Grouping" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Grouping" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Grouping" class="hide-methods failed suite-Grouping"> (hide)</a> <!-- hide-methods failed suite-Grouping -->
+                      <a href="#" panel-name="suite-Grouping" class="show-methods failed suite-Grouping"> (show)</a> <!-- show-methods failed suite-Grouping -->
+                    </span>
+                    <div class="method-list-content failed suite-Grouping">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.ECoreHRAwardPageTestCase" class="method navigator-link" hash-for-method="verifyAddAwardTC20">verifyAddAwardTC20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.GEmployeePageTest" class="method navigator-link" hash-for-method="verifyAddEmployeeTC24">verifyAddEmployeeTC24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Grouping -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Grouping" class="hide-methods passed suite-Grouping"> (hide)</a> <!-- hide-methods passed suite-Grouping -->
+                      <a href="#" panel-name="suite-Grouping" class="show-methods passed suite-Grouping"> (show)</a> <!-- show-methods passed suite-Grouping -->
+                    </span>
+                    <div class="method-list-content passed suite-Grouping">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.HEmailTemplateTestCase" class="method navigator-link" hash-for-method="verifyEmailTemplateEditFunctionTC29">verifyEmailTemplateEditFunctionTC29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.BHomePageTestCase" class="method navigator-link" hash-for-method="verifyEmployeesCssValuesTC06">verifyEmployeesCssValuesTC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.CHRCalendarPageTestCase" class="method navigator-link" hash-for-method="verifyHRHolidaysTagNameTC14">verifyHRHolidaysTagNameTC14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.BHomePageTestCase" class="method navigator-link" hash-for-method="verifyHRMSSettingAttributeValueTC09">verifyHRMSSettingAttributeValueTC09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.ALoginTestCase" class="method navigator-link" hash-for-method="verifyLoginButtonTextTC01">verifyLoginButtonTextTC01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Grouping" title="testCases.DRolePermissionTestCase" class="method navigator-link" hash-for-method="verifySearchBarTC17">verifySearchBarTC17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Grouping -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Grouping" class="panel Grouping">
+          <div class="suite-Grouping-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.ECoreHRAwardPageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddAwardTC20">
+                  </a> <!-- verifyAddAwardTC20 -->
+                  <span class="method-name">verifyAddAwardTC20</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;LAPTOP-1G2A8GFB&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1682df075c0333a0b9e172b470e51ed1, findChildElements {id=13b5c941-e985-49bb-bb64-b32eae319e8a, using=xpath, value=.//option[normalize-space(.) = &quot;John Smith&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52681/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1682df075c0333a0b9e172b470e51ed1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:400)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:213)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.findElements(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
+	at utilitiesClass.GeneralUtilities.dropDownFunction(GeneralUtilities.java:56)
+	at elementRepository.CoreHRAwardPageRepo.selectEmployeeAward(CoreHRAwardPageRepo.java:76)
+	at testCases.ECoreHRAwardPageTestCase.verifyAddAwardTC20(ECoreHRAwardPageTestCase.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-failed -->
+          <div class="suite-Grouping-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.GEmployeePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddEmployeeTC24">
+                  </a> <!-- verifyAddEmployeeTC24 -->
+                  <span class="method-name">verifyAddEmployeeTC24</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;LAPTOP-1G2A8GFB&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c2796fd3efd4dc1257e7d4a9c861b75, findChildElements {id=241ce121-bc67-4dc3-8d1b-59466901d431, using=xpath, value=.//option[normalize-space(.) = &quot;MD Office&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52724/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c2796fd3efd4dc1257e7d4a9c861b75
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:400)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:213)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.findElements(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:114)
+	at utilitiesClass.GeneralUtilities.dropDownFunction(GeneralUtilities.java:56)
+	at elementRepository.AddNewEmployeeRepo.selectDepartment(AddNewEmployeeRepo.java:99)
+	at testCases.GEmployeePageTest.verifyAddEmployeeTC24(GEmployeePageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-failed -->
+          <div class="suite-Grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CHRCalendarPageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHRHolidaysTagNameTC14">
+                  </a> <!-- verifyHRHolidaysTagNameTC14 -->
+                  <span class="method-name">verifyHRHolidaysTagNameTC14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-passed -->
+          <div class="suite-Grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.DRolePermissionTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBarTC17">
+                  </a> <!-- verifySearchBarTC17 -->
+                  <span class="method-name">verifySearchBarTC17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-passed -->
+          <div class="suite-Grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.HEmailTemplateTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailTemplateEditFunctionTC29">
+                  </a> <!-- verifyEmailTemplateEditFunctionTC29 -->
+                  <span class="method-name">verifyEmailTemplateEditFunctionTC29</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-passed -->
+          <div class="suite-Grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ALoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginButtonTextTC01">
+                  </a> <!-- verifyLoginButtonTextTC01 -->
+                  <span class="method-name">verifyLoginButtonTextTC01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-passed -->
+          <div class="suite-Grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.BHomePageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmployeesCssValuesTC06">
+                  </a> <!-- verifyEmployeesCssValuesTC06 -->
+                  <span class="method-name">verifyEmployeesCssValuesTC06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHRMSSettingAttributeValueTC09">
+                  </a> <!-- verifyHRMSSettingAttributeValueTC09 -->
+                  <span class="method-name">verifyHRMSSettingAttributeValueTC09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Grouping-class-passed -->
+        </div> <!-- panel Grouping -->
+        <div panel-name="test-xml-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rahul\Desktop\SeleniumAlvinSir\HrmsProjectFrameWork\Grouping.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Grouping&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Grouping Test HRMS&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ALoginTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.BHomePageTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.CHRCalendarPageTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.DRolePermissionTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.ECoreHRAwardPageTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.FPayslipPageTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.GEmployeePageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.HEmailTemplateTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.IThemeSettingPageTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Grouping Test HRMS --&gt;
+&lt;/suite&gt; &lt;!-- Grouping --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Grouping Test HRMS (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddAwardTC20</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddEmployeeTC24</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyEmailTemplateEditFunctionTC29</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyEmployeesCssValuesTC06</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHRHolidaysTagNameTC14</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHRMSSettingAttributeValueTC09</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginButtonTextTC01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchBarTC17</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Grouping');
+function tableData_Grouping() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySearchBarTC17')
+data.setCell(0, 2, 'testCases.DRolePermissionTestCase')
+data.setCell(0, 3, 15861);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHRHolidaysTagNameTC14')
+data.setCell(1, 2, 'testCases.CHRCalendarPageTestCase')
+data.setCell(1, 3, 11602);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddEmployeeTC24')
+data.setCell(2, 2, 'testCases.GEmployeePageTest')
+data.setCell(2, 3, 11014);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyEmailTemplateEditFunctionTC29')
+data.setCell(3, 2, 'testCases.HEmailTemplateTestCase')
+data.setCell(3, 3, 10746);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyHRMSSettingAttributeValueTC09')
+data.setCell(4, 2, 'testCases.BHomePageTestCase')
+data.setCell(4, 3, 9778);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAddAwardTC20')
+data.setCell(5, 2, 'testCases.ECoreHRAwardPageTestCase')
+data.setCell(5, 3, 9678);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyEmployeesCssValuesTC06')
+data.setCell(6, 2, 'testCases.BHomePageTestCase')
+data.setCell(6, 3, 9291);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginButtonTextTC01')
+data.setCell(7, 2, 'testCases.ALoginTestCase')
+data.setCell(7, 3, 57);
+window.suiteTableData['Grouping']= { tableData: data, tableDiv: 'times-div-Grouping'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Grouping">
+              </div> <!-- times-div-Grouping -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">22 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ECoreHRAwardPageTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyAddAwardWithOutFieldTC21</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.CHRCalendarPageTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyHRCalendarHolidaysTC13</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.DRolePermissionTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyDeleteRoleTC18</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddNewRoleTC15</span>
+                <br/>
+                <span class="ignored-method-name">verifyEditIconTC19</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddNewRoleWithOutFieldsTC16</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.GEmployeePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyEmployeeReportTC26</span>
+                <br/>
+                <span class="ignored-method-name">verifyFilterEmployeeTC25</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.HEmailTemplateTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyEmailTempatePageNextButtonTC27</span>
+                <br/>
+                <span class="ignored-method-name">verifyEmailTempateSortingFunctionTC28</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.IThemeSettingPageTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyThemeSettingPageLayoutTC30</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ALoginTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyForgotPasswordTC04</span>
+                <br/>
+                <span class="ignored-method-name">verifyValidUserTC02</span>
+                <br/>
+                <span class="ignored-method-name">verifyInValidUserTC03</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.BHomePageTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyRolesPermissionAttributeValuesTC07</span>
+                <br/>
+                <span class="ignored-method-name">verifyHomePageTitleTC10</span>
+                <br/>
+                <span class="ignored-method-name">verifyLoggedUserNameTC05</span>
+                <br/>
+                <span class="ignored-method-name">verifySignOutButtonTC12</span>
+                <br/>
+                <span class="ignored-method-name">verifyCoreHrFootBallIconTC11</span>
+                <br/>
+                <span class="ignored-method-name">verifyLeaveManagementTagNameTC08</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.FPayslipPageTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyDownloadButtonTC23</span>
+                <br/>
+                <span class="ignored-method-name">vrifySearchPayslipTC22</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ALoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginButtonTextTC01</span>
+                <span class="method-start">5923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLoginButtonTextTC01 status=SUCCESS method=ALoginTestCase.verifyLoginButtonTex...)</span>
+                <span class="method-start">5983 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.BHomePageTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">6053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmployeesCssValuesTC06</span>
+                <span class="method-start">11087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyEmployeesCssValuesTC06 status=SUCCESS method=BHomePageTestCase.verifyEmployee...)</span>
+                <span class="method-start">20378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">20451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHRMSSettingAttributeValueTC09</span>
+                <span class="method-start">26183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyHRMSSettingAttributeValueTC09 status=SUCCESS method=BHomePageTestCase.verifyH...)</span>
+                <span class="method-start">35963 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CHRCalendarPageTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">36037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHRHolidaysTagNameTC14</span>
+                <span class="method-start">41684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyHRHolidaysTagNameTC14 status=SUCCESS method=CHRCalendarPageTestCase.verifyHRH...)</span>
+                <span class="method-start">53287 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DRolePermissionTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">53352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBarTC17</span>
+                <span class="method-start">58624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifySearchBarTC17 status=SUCCESS method=DRolePermissionTestCase.verifySearchBarTC...)</span>
+                <span class="method-start">74485 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ECoreHRAwardPageTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">74540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAddAwardTC20</span>
+                <span class="method-start">78144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyAddAwardTC20 status=FAILURE method=ECoreHRAwardPageTestCase.verifyAddAwardTC2...)</span>
+                <span class="method-start">87827 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.GEmployeePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">88142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAddEmployeeTC24</span>
+                <span class="method-start">93417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyAddEmployeeTC24 status=FAILURE method=GEmployeePageTest.verifyAddEmployeeTC24...)</span>
+                <span class="method-start">104432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HEmailTemplateTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(Chrome)</span>
+                <span class="method-start">104750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailTemplateEditFunctionTC29</span>
+                <span class="method-start">110799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyEmailTemplateEditFunctionTC29 status=SUCCESS method=HEmailTemplateTestCase.ve...)</span>
+                <span class="method-start">121545 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

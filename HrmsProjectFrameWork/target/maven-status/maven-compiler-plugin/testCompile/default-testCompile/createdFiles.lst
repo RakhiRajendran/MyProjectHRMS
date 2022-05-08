@@ -1,0 +1,11 @@
+testCases\FPayslipPageTestCase.class
+testCases\GEmployeePageTest.class
+testCases\IThemeSettingPageTestCase.class
+testCases\BaseClass.class
+testCases\HEmailTemplateTestCase.class
+testCases\CHRCalendarPageTestCase.class
+testCases\BHomePageTestCase.class
+testCases\ECoreHRAwardPageTestCase.class
+testCases\DRolePermissionTestCase.class
+testCases\ALoginTestCase.class
+testCases\CONSTANT.class

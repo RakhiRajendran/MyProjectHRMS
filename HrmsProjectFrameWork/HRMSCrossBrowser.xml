@@ -1,0 +1,31 @@
+<suite name="Cross Browser suite">
+	<test name="Chrome Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCases.ALoginTestCase"></class>
+			<class name="testCases.BHomePageTestCase"></class>
+			<class name="testCases.CHRCalendarPageTestCase"></class>
+			<class name="testCases.DRolePermissionTestCase"></class>
+			<class name="testCases.ECoreHRAwardPageTestCase"></class>
+			<class name="testCases.FPayslipPageTestCase"></class>
+			<class name="testCases.GEmployeePageTest"></class>
+			<class name="testCases.HEmailTemplateTestCase"></class>
+			<class name="testCases.IThemeSettingPageTestCase"></class>
+		</classes>
+	</test>
+	<test name="Edge Test">
+		<parameter name="Browser" value="Edge"></parameter>
+		<classes>
+			<class name="testCases.ALoginTestCase"></class>
+			<class name="testCases.BHomePageTestCase"></class>
+			<class name="testCases.CHRCalendarPageTestCase"></class>
+			<class name="testCases.DRolePermissionTestCase"></class>
+			<class name="testCases.ECoreHRAwardPageTestCase"></class>
+			<class name="testCases.FPayslipPageTestCase"></class>
+			<class name="testCases.GEmployeePageTest"></class>
+			<class name="testCases.HEmailTemplateTestCase"></class>
+			<class name="testCases.IThemeSettingPageTestCase"></class>
+
+		</classes>
+	</test>
+</suite>
